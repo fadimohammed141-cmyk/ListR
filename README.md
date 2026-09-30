@@ -21,11 +21,18 @@ It has 3 required options:
 
 Displays all of your anime lists and their stored information, including your **Completed**, **Watching**, and **Interested** lists.
 
-### /animeremove
+### /animereset
 
-Removes an anime from your ListR collection.
+Resets or modifies anime data in your ListR collection.
 
-The exact behavior and options for this command will be documented once the command has been fully defined.
+Its first required option is **reset-wat**, which determines what you want to reset:
+
+- **all** — Resets everything in your ListR data.
+- **category** — Resets a specific anime category/list.
+- **anime** — Removes a specific anime from your lists.
+- **episodes** — Removes a set amount of episodes from a specific anime.
+
+**Important note:** When using **episodes**, enter a **negative value** to add episodes instead of removing them. For example, entering `-5` adds 5 episodes.
 
 ## Privacy & Terms
 
