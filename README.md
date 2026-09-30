@@ -34,12 +34,22 @@ Resets or modifies existing anime-list data.
 
 The first required option is `reset-wat`. It determines what the command will affect:
 
-| `reset-wat` option | What it does |
-|---|---|
-| `all` | Resets all of your ListR anime data. |
-| `category` | Resets a specific anime category/list. |
-| `anime` | Removes a specific anime from your lists. |
-| `episodes` | Removes a specified number of episodes from a specific anime. |
+| `reset-wat` option | What it does | Required additional option |
+|---|---|---|
+| `all` | Resets all of your ListR anime data. | None |
+| `category` | Resets a specific anime category/list. | `category` |
+| `anime` | Removes a specific anime from your lists. | `anime` |
+| `episodes` | Removes a specified number of episodes from a specific anime. | `anime` and `episode` |
+
+The command has 3 additional options: `anime`, `category`, and `episode`.
+
+These options are technically optional command parameters, but they are required when the corresponding `reset-wat` value is selected:
+
+- **`anime`** — Required when `reset-wat` is `anime` or `episodes`. Specifies which anime the command should affect.
+- **`category`** — Required when `reset-wat` is `category`. Specifies which category/list should be reset.
+- **`episode`** — Required when `reset-wat` is `episodes`. Specifies the number of episodes to remove.
+
+If `reset-wat` is `all`, none of the three additional options are required.
 
 **Important:** When using `episodes`, use a **negative number to add episodes** instead of removing them. For example, `-5` adds 5 episodes.
 
