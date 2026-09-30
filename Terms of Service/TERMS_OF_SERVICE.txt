@@ -1,0 +1,80 @@
+ListR Terms of Service
+
+Effective Date: September 30, 2026
+
+These Terms of Service ("Terms") govern your use of ListR, a Discord bot that allows users to create, manage, and view personal anime and entertainment lists within Discord.
+
+By adding, using, or interacting with ListR, you agree to these Terms. If you do not agree with these Terms, do not use ListR.
+
+1. Service Description
+
+ListR provides tools for tracking and organizing anime and related entertainment information through Discord. Features may include, but are not limited to, completed lists, watching lists, episode counts, statistics, and other list-management features.
+
+ListR is an independent third-party Discord application and is not affiliated with, endorsed by, or sponsored by Discord Inc.
+
+2. Eligibility
+
+You must meet Discord's minimum age requirements and comply with all applicable laws and Discord's Terms of Service, Community Guidelines, Developer Terms, and Developer Policy.
+
+3. User Data
+
+ListR may store information necessary to provide its features. Depending on the features you use, this may include Discord user or server identifiers, anime titles, episode counts, list information, preferences, and bot configuration data.
+
+ListR will not intentionally request or store passwords, Discord authentication tokens, or other credentials through normal bot functionality.
+
+You are responsible for reviewing the bot's Privacy Policy, if one is provided, for detailed information about what data is collected, why it is collected, how long it is retained, and how it can be deleted.
+
+4. User Responsibilities
+
+You agree to:
+- Use ListR only for lawful purposes.
+- Follow Discord's Terms of Service and applicable policies.
+- Avoid attempting to exploit, disrupt, overload, or compromise ListR.
+- Avoid using ListR to facilitate harassment, spam, abuse, or other harmful activity.
+- Provide accurate information when using ListR's features.
+
+5. Anime and Third-Party Content
+
+ListR may display titles, names, metadata, images, or other information originating from third-party services or sources.
+
+ListR does not claim ownership of third-party intellectual property. All third-party trademarks, names, characters, and related materials remain the property of their respective owners.
+
+ListR is intended to help users organize information and does not provide unauthorized copies of copyrighted anime or other media.
+
+6. Availability
+
+ListR is provided on an "as available" basis. Features may be changed, temporarily unavailable, discontinued, or removed without notice.
+
+The ListR owner does not guarantee uninterrupted operation, permanent data retention, or compatibility with future Discord changes.
+
+7. Moderation and Termination
+
+The ListR owner may restrict or terminate access to ListR for users, servers, or other entities that violate these Terms, abuse the service, or create security or operational risks.
+
+The ListR owner may also discontinue the service at any time.
+
+8. Limitation of Liability
+
+To the extent permitted by applicable law, ListR and its owner are not responsible for losses, damages, data loss, service interruptions, or other consequences arising from the use of or inability to use ListR.
+
+9. Changes to These Terms
+
+These Terms may be updated when ListR's features, data practices, legal requirements, or policies change.
+
+The latest version published with ListR will replace previous versions. Continued use of ListR after an update constitutes acceptance of the updated Terms, to the extent permitted by applicable law.
+
+10. Discord Policies
+
+Your use of ListR remains subject to Discord's applicable Terms of Service, Community Guidelines, Developer Terms of Service, Developer Policy, and other applicable Discord policies.
+
+If these Terms conflict with a mandatory Discord policy or applicable law, the mandatory policy or law takes precedence.
+
+11. Contact
+
+For questions, concerns, data requests, or other issues concerning ListR, contact the ListR owner through the official support/contact method provided with the bot or its project repository.
+
+12. Acceptance
+
+By using ListR, you acknowledge that you have read, understood, and agreed to these Terms of Service.
+
+This document is a general service-terms template and is not legal advice. The ListR owner is responsible for adapting it to the bot's actual data practices, features, jurisdiction, and applicable laws.
