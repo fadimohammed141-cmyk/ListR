@@ -2,90 +2,107 @@ ListR Privacy Policy
 
 Effective Date: September 30, 2026
 
-This Privacy Policy explains what information ListR, a Discord bot, may collect, how that information is used, and the choices available to users.
+This Privacy Policy explains exactly what data ListR's persistent bot variables store, why that data is used, and how users can request its deletion.
 
-ListR is an independent third-party Discord application and is not affiliated with, endorsed by, or sponsored by Discord Inc.
+ListR is an independent third-party Discord application. It is not affiliated with, endorsed by, or sponsored by Discord Inc.
 
-1. Information We Collect
+1. Data Stored by ListR
 
-To provide ListR's features, we may store information associated with your use of the bot, including:
+ListR's persistent variables store only these categories of data:
 
-- Discord user ID.
-- Discord server ID where necessary for server-specific bot configuration or list functionality.
-- Anime titles that you add to your lists.
-- The category assigned to each anime: Completed, Watching, or Interested.
-- The number of episodes you record as watched.
-- List and configuration data required for ListR to function.
-- Basic command or interaction information needed to process your requests and maintain the service.
+- User IDs, and only when a User ID is required to associate stored data with the correct user.
+- Anime names.
+- Episode numbers.
+- Chosen options used by ListR's functionality, such as the selected anime category or /animereset reset-wat option.
 
-ListR does not intentionally collect Discord passwords, authentication tokens, payment information, or message content unrelated to interactions with ListR.
+These are the only categories of information intentionally stored in ListR's persistent variables.
 
-2. How We Use Information
+ListR does not intentionally store the following in its persistent ListR variables:
 
-Information stored by ListR is used only as reasonably necessary to:
+- Discord server IDs.
+- Usernames or display names.
+- Avatars.
+- Message content.
+- Discord passwords.
+- Discord authentication tokens.
+- Email addresses.
+- Payment information.
+- IP addresses.
+- Precise location information.
+- Voice or video data.
+- Unrelated personal information.
 
-- Create and maintain your anime lists.
-- Display your lists and statistics through ListR commands.
-- Process additions, removals, and other bot interactions.
-- Maintain, troubleshoot, secure, and improve the bot.
-- Prevent abuse or misuse of the service.
+If information is not one of the data categories expressly listed in this policy, it is not intentionally stored in ListR's persistent variables.
 
-ListR does not sell your personal information.
+2. Why Data Is Stored
 
-3. Discord Information
+Each stored data category has a direct functional purpose:
 
-Because ListR operates through Discord, Discord may provide the bot with information according to Discord's APIs, permissions, and policies.
+- User IDs are used only when necessary to associate an anime list with the correct Discord user.
+- Anime names are used to identify entries in an anime list.
+- Episode numbers are used to track the number of episodes recorded for an anime.
+- Chosen options are used to record or process the selections required by ListR's commands, such as a category or reset operation.
 
-ListR only intends to use information necessary for its stated features. Discord also provides users with information about what data an app or bot can access through its Data Access features.
+ListR does not use this stored data for advertising, selling personal information, or creating unrelated user profiles.
 
-For more information about Discord's own privacy practices, review Discord's Privacy Policy.
+3. Commands and Data
 
-4. Data Storage and Security
+/addanime accepts a title, category, and episode number so that an anime can be added to a list.
 
-ListR may store user and list information in databases or other systems used to operate the service.
+/animestats reads the relevant stored anime-list information so that the user's lists can be displayed.
 
-Reasonable measures may be used to protect stored information. However, no online service can guarantee absolute security.
+/animereset uses the selected reset-wat option and any associated anime, category, or episode value to modify the user's existing list data.
 
-Access to stored information should be limited to the ListR owner and authorized personnel or services that require access to operate the bot.
+For /animereset with reset-wat set to episodes, a negative episode value adds episodes instead of removing them.
 
-5. Data Retention
+4. Discord and Third-Party Data Access
 
-ListR may retain information for as long as necessary to provide its features, maintain the service, prevent abuse, resolve disputes, or comply with applicable legal obligations.
+ListR operates through Discord. Discord may make information available to a third-party application according to the permissions, APIs, and access rules applicable to that application.
 
-If ListR provides a method for deleting user data, users may use that method to request deletion of their stored list information.
+This Privacy Policy describes what ListR intentionally stores in its own persistent variables. It does not describe or replace Discord's own privacy practices.
 
-When information is no longer reasonably required, it may be deleted or anonymized, subject to technical, legal, or operational requirements.
+Discord states that apps can have access to certain baseline information depending on how they are installed and what access they have, and that users should review an app developer's privacy policy to understand the app's data practices. See Discord's official privacy and app-data documentation for details.
 
-6. Data Deletion Requests
+5. Data Sharing
 
-Users may request deletion of information stored by ListR by contacting the ListR owner through the official support or contact method provided with the bot or its project repository.
+ListR does not sell, rent, or intentionally share its stored ListR data with advertisers or unrelated third parties.
 
-A deletion request should identify the Discord account or data concerned without unnecessarily providing sensitive information.
+If infrastructure or service providers are required to operate ListR, any data processing by those providers is limited to what is necessary to provide the service and is subject to their applicable terms and policies.
 
-The ListR owner may need to verify that the request belongs to the relevant user before deleting data.
+6. Data Retention and Deletion
 
-7. Third-Party Services
+ListR retains stored anime-list data for as long as it is needed to provide the service, unless it is deleted through ListR's functionality or by an applicable data-deletion request.
 
-ListR may rely on Discord and other infrastructure or services required to operate the bot.
+Users may request deletion of their stored ListR data by contacting the ListR owner through the official support or contact method provided with the bot or its project repository.
 
-Those services may process information according to their own privacy policies and terms.
+A deletion request may require the user to provide their Discord User ID or other information reasonably necessary to identify the relevant stored data. That information will be used for the deletion request and not intentionally stored as part of the user's ListR data unless required for the request.
 
-ListR does not control the privacy practices of third-party services.
+If data is deleted, copies may remain temporarily in technical backups or logs where applicable and may be removed according to the relevant retention cycle.
 
-8. Children's Privacy
+7. Security
 
-ListR does not intentionally request personal information beyond what is necessary to operate its Discord features.
+Reasonable technical and organizational measures should be used to protect stored ListR data from unauthorized access, alteration, or loss.
 
-Users must meet Discord's applicable age requirements and comply with Discord's policies.
+No online service can guarantee absolute security. If a security incident materially affects stored user data, the ListR owner will take reasonable steps required by applicable law and the circumstances of the incident.
 
-9. Changes to This Privacy Policy
+8. Data Accuracy
 
-This Privacy Policy may be updated when ListR's features, data practices, infrastructure, or legal requirements change.
+Users are responsible for the anime names, categories, and episode numbers they submit. ListR does not independently verify whether an anime title or episode count is accurate.
 
-The latest version published with ListR will replace previous versions.
+9. Children's Privacy
 
-10. Contact
+Users must meet Discord's applicable minimum age requirements and comply with Discord's policies. ListR does not intentionally request additional personal information from users beyond the limited data described in this policy.
 
-For privacy questions, data deletion requests, or other concerns about ListR's handling of information, contact the ListR owner through the official support/contact method provided with the bot or its project repository.
+10. Changes to This Privacy Policy
 
-This document is a general privacy-policy template and is not legal advice. The ListR owner should adapt it to the bot's actual database, hosting providers, logging practices, data-retention periods, and applicable laws before publishing it as the bot's final privacy policy.
+This Privacy Policy may be updated when ListR's commands, storage implementation, data practices, or legal requirements change.
+
+If the categories of persistent data intentionally stored by ListR change, this Privacy Policy will be updated to describe those changes.
+
+The current version published with ListR replaces previous versions.
+
+11. Contact
+
+For privacy questions or data-deletion requests, contact the ListR owner through the official support or contact method provided with the bot or its project repository.
+
+This document is a general privacy-policy template and is not legal advice. The ListR owner is responsible for ensuring that this policy accurately reflects the actual implementation, hosting/logging configuration, retention periods, and applicable laws.
