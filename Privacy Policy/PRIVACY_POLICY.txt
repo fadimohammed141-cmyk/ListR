@@ -12,7 +12,7 @@ ListR's persistent variables store only these categories of data:
 
 - User IDs, and only when a User ID is required to associate stored data with the correct user.
 - Anime names.
-- Episode numbers.
+- Episode numbers, used only to track the user's total number of episodes watched overall and never tied to an anime name.
 - Chosen options used by ListR's functionality, such as the selected anime category or /animereset reset-wat option.
 
 These are the only categories of information intentionally stored in ListR's persistent variables.
@@ -38,22 +38,24 @@ If information is not one of the data categories expressly listed in this policy
 
 Each stored data category has a direct functional purpose:
 
-- User IDs are used only when necessary to associate an anime list with the correct Discord user.
+- User IDs are used only when necessary to associate an anime list and its data with the correct Discord user.
 - Anime names are used to identify entries in an anime list.
-- Episode numbers are used to track the number of episodes recorded for an anime.
+- Episode numbers are used only as the user's overall watched-episode total. They are not stored as episodes watched for, or otherwise associated with, a particular anime name.
 - Chosen options are used to record or process the selections required by ListR's commands, such as a category or reset operation.
 
 ListR does not use this stored data for advertising, selling personal information, or creating unrelated user profiles.
 
 3. Commands and Data
 
-/addanime accepts a title, category, and episode number so that an anime can be added to a list.
+/addanime accepts a title, category, and episode value so that an anime can be added to a list while the user's overall watched-episode total can be updated.
 
-/animestats reads the relevant stored anime-list information so that the user's lists can be displayed.
+The episode value supplied to /addanime is not associated with the title. For completed and watching, it is an amount added to the user's overall watched-episode total. For interested, it should be 0.
 
-/animereset uses the selected reset-wat option and any associated anime, category, or episode value to modify the user's existing list data.
+/animestats reads the relevant stored anime-list information and the global watched-episode total so that the user's lists and total can be displayed.
 
-For /animereset with reset-wat set to episodes, a negative episode value adds episodes instead of removing them.
+/animereset uses the selected reset-wat option and any applicable anime, category, or episode value to modify the user's existing ListR data.
+
+When reset-wat is episodes, the episode value modifies the global watched-episode total. It is not tied to any anime. A negative episode value adds episodes rather than removing them.
 
 4. Discord and Third-Party Data Access
 
@@ -61,7 +63,7 @@ ListR operates through Discord. Discord may make information available to a thir
 
 This Privacy Policy describes what ListR intentionally stores in its own persistent variables. It does not describe or replace Discord's own privacy practices.
 
-Discord states that apps can have access to certain baseline information depending on how they are installed and what access they have, and that users should review an app developer's privacy policy to understand the app's data practices. See Discord's official privacy and app-data documentation for details.
+Discord's handling of information made available to apps is governed by Discord's own policies and documentation.
 
 5. Data Sharing
 
@@ -87,7 +89,7 @@ No online service can guarantee absolute security. If a security incident materi
 
 8. Data Accuracy
 
-Users are responsible for the anime names, categories, and episode numbers they submit. ListR does not independently verify whether an anime title or episode count is accurate.
+Users are responsible for the anime names, categories, and episode values they submit. ListR does not independently verify whether an anime title or episode total is accurate.
 
 9. Children's Privacy
 
