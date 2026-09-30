@@ -1,0 +1,91 @@
+ListR Privacy Policy
+
+Effective Date: September 30, 2026
+
+This Privacy Policy explains what information ListR, a Discord bot, may collect, how that information is used, and the choices available to users.
+
+ListR is an independent third-party Discord application and is not affiliated with, endorsed by, or sponsored by Discord Inc.
+
+1. Information We Collect
+
+To provide ListR's features, we may store information associated with your use of the bot, including:
+
+- Discord user ID.
+- Discord server ID where necessary for server-specific bot configuration or list functionality.
+- Anime titles that you add to your lists.
+- The category assigned to each anime: Completed, Watching, or Interested.
+- The number of episodes you record as watched.
+- List and configuration data required for ListR to function.
+- Basic command or interaction information needed to process your requests and maintain the service.
+
+ListR does not intentionally collect Discord passwords, authentication tokens, payment information, or message content unrelated to interactions with ListR.
+
+2. How We Use Information
+
+Information stored by ListR is used only as reasonably necessary to:
+
+- Create and maintain your anime lists.
+- Display your lists and statistics through ListR commands.
+- Process additions, removals, and other bot interactions.
+- Maintain, troubleshoot, secure, and improve the bot.
+- Prevent abuse or misuse of the service.
+
+ListR does not sell your personal information.
+
+3. Discord Information
+
+Because ListR operates through Discord, Discord may provide the bot with information according to Discord's APIs, permissions, and policies.
+
+ListR only intends to use information necessary for its stated features. Discord also provides users with information about what data an app or bot can access through its Data Access features.
+
+For more information about Discord's own privacy practices, review Discord's Privacy Policy.
+
+4. Data Storage and Security
+
+ListR may store user and list information in databases or other systems used to operate the service.
+
+Reasonable measures may be used to protect stored information. However, no online service can guarantee absolute security.
+
+Access to stored information should be limited to the ListR owner and authorized personnel or services that require access to operate the bot.
+
+5. Data Retention
+
+ListR may retain information for as long as necessary to provide its features, maintain the service, prevent abuse, resolve disputes, or comply with applicable legal obligations.
+
+If ListR provides a method for deleting user data, users may use that method to request deletion of their stored list information.
+
+When information is no longer reasonably required, it may be deleted or anonymized, subject to technical, legal, or operational requirements.
+
+6. Data Deletion Requests
+
+Users may request deletion of information stored by ListR by contacting the ListR owner through the official support or contact method provided with the bot or its project repository.
+
+A deletion request should identify the Discord account or data concerned without unnecessarily providing sensitive information.
+
+The ListR owner may need to verify that the request belongs to the relevant user before deleting data.
+
+7. Third-Party Services
+
+ListR may rely on Discord and other infrastructure or services required to operate the bot.
+
+Those services may process information according to their own privacy policies and terms.
+
+ListR does not control the privacy practices of third-party services.
+
+8. Children's Privacy
+
+ListR does not intentionally request personal information beyond what is necessary to operate its Discord features.
+
+Users must meet Discord's applicable age requirements and comply with Discord's policies.
+
+9. Changes to This Privacy Policy
+
+This Privacy Policy may be updated when ListR's features, data practices, infrastructure, or legal requirements change.
+
+The latest version published with ListR will replace previous versions.
+
+10. Contact
+
+For privacy questions, data deletion requests, or other concerns about ListR's handling of information, contact the ListR owner through the official support/contact method provided with the bot or its project repository.
+
+This document is a general privacy-policy template and is not legal advice. The ListR owner should adapt it to the bot's actual database, hosting providers, logging practices, data-retention periods, and applicable laws before publishing it as the bot's final privacy policy.
