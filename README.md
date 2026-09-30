@@ -1,6 +1,6 @@
 # ListR
 
-ListR is a Discord bot for managing personal anime lists directly through Discord.
+ListR is a Discord bot for managing personal anime lists directly through Discord and tracking your total number of watched episodes.
 
 ## Commands
 
@@ -14,9 +14,11 @@ This command has 3 required options:
 |---|---|
 | `title` | The name of the anime to add. |
 | `category` | The list to add the anime to: `completed`, `watching`, or `interested`. |
-| `episodes` | The number of episodes watched. Use `0` when the category is `interested`. |
+| `episodes` | The number of episodes to add to your overall watched-episode total. |
 
-For `completed` and `watching`, enter the number of episodes you have watched. For `interested`, enter `0`.
+**Important:** The `episodes` value is **not tied to the anime title whatsoever**. It is only used to track your **total number of episodes watched overall**.
+
+For `completed` and `watching`, enter the number of episodes you want to add to your overall watched-episode total. For `interested`, use `0`.
 
 ### `/animestats`
 
@@ -25,33 +27,33 @@ Displays your ListR anime lists, including:
 - Completed
 - Watching
 - Interested
+- Total number of episodes recorded as watched
 
-The displayed information is based on the anime names, episode numbers, and category information associated with your lists.
+The episode total is a separate global counter. It is **not associated with any anime name**.
 
 ### `/animereset`
 
-Resets or modifies existing anime-list data.
+Resets or modifies existing ListR data.
 
 The first required option is `reset-wat`. It determines what the command will affect:
 
 | `reset-wat` option | What it does | Required additional option |
 |---|---|---|
-| `all` | Resets all of your ListR anime data. | None |
+| `all` | Resets all of your ListR data, including anime lists and the global episode total. | None |
 | `category` | Resets a specific anime category/list. | `category` |
 | `anime` | Removes a specific anime from your lists. | `anime` |
-| `episodes` | Removes a specified number of episodes from a specific anime. | `anime` and `episode` |
+| `episodes` | Removes a specified number from the global watched-episode total. | `episode` |
 
 The command has 3 additional options: `anime`, `category`, and `episode`.
 
-These options are technically optional command parameters, but they are required when the corresponding `reset-wat` value is selected:
+These options are technically optional command parameters, but they are conditionally required depending on the selected `reset-wat` value:
 
-- **`anime`** — Required when `reset-wat` is `anime` or `episodes`. Specifies which anime the command should affect.
-- **`category`** — Required when `reset-wat` is `category`. Specifies which category/list should be reset.
-- **`episode`** — Required when `reset-wat` is `episodes`. Specifies the number of episodes to remove.
+- **`anime`** — Required only when `reset-wat` is `anime`. It specifies which anime to remove.
+- **`category`** — Required only when `reset-wat` is `category`. It specifies which category/list to reset.
+- **`episode`** — Required only when `reset-wat` is `episodes`. It specifies how much to change the global episode total.
+- **`all`** — Requires none of the additional options.
 
-If `reset-wat` is `all`, none of the three additional options are required.
-
-**Important:** When using `episodes`, use a **negative number to add episodes** instead of removing them. For example, `-5` adds 5 episodes.
+**Important:** With `reset-wat=episodes`, the `episode` value affects the **global watched-episode total**, not any particular anime. A negative value adds episodes instead of removing them. For example, entering `-5` adds 5 to the overall watched-episode total.
 
 ## Data & Privacy
 
@@ -61,10 +63,12 @@ Its persistent ListR variables store only:
 
 - **User IDs**, and only where a User ID is required to associate data with the correct user.
 - **Anime names**.
-- **Episode numbers**.
+- **Episode numbers**, used as the overall watched-episode total and not tied to anime names.
 - **Chosen options** used by ListR's functionality, such as selected categories or reset options.
 
-ListR does **not** intentionally store Discord server IDs, usernames, message content, passwords, authentication tokens, payment information, or other personal information in its persistent ListR variables.
+These are the only categories intentionally stored in ListR's persistent variables.
+
+ListR does **not** intentionally store Discord server IDs, usernames or display names, avatars, message content, passwords, authentication tokens, payment information, IP addresses, precise location information, voice/video data, or unrelated personal information in its persistent ListR variables.
 
 For the complete rules governing data collection and use, see the [Privacy Policy](Privacy%20Policy/PRIVACY_POLICY.txt).
 
