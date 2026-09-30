@@ -2,79 +2,96 @@ ListR Terms of Service
 
 Effective Date: September 30, 2026
 
-These Terms of Service ("Terms") govern your use of ListR, a Discord bot that allows users to create, manage, and view personal anime and entertainment lists within Discord.
+These Terms of Service ("Terms") govern your use of ListR, a Discord bot for managing personal anime lists through Discord.
 
-By adding, using, or interacting with ListR, you agree to these Terms. If you do not agree with these Terms, do not use ListR.
+By using ListR, you agree to these Terms. If you do not agree with them, do not use ListR.
 
-1. Service Description
+1. Service
 
-ListR provides tools for tracking and organizing anime and related entertainment information through Discord. Features may include, but are not limited to, completed lists, watching lists, episode counts, statistics, and other list-management features.
+ListR provides commands for creating, viewing, and modifying personal anime lists. Its documented commands are /addanime, /animestats, and /animereset.
 
-ListR is an independent third-party Discord application and is not affiliated with, endorsed by, or sponsored by Discord Inc.
+ListR is an independent third-party Discord application. It is not affiliated with, endorsed by, or sponsored by Discord Inc.
 
-2. Eligibility
+2. Commands
 
-You must meet Discord's minimum age requirements and comply with all applicable laws and Discord's Terms of Service, Community Guidelines, Developer Terms, and Developer Policy.
+/addanime adds an anime using the required title, category, and episodes options. The available categories are completed, watching, and interested. An interested entry uses 0 episodes.
 
-3. User Data
+/animestats displays the user's anime lists.
 
-ListR may store information necessary to provide its features. Depending on the features you use, this may include Discord user or server identifiers, anime titles, episode counts, list information, preferences, and bot configuration data.
+/animereset modifies existing list data. Its reset-wat option determines whether all data, a category, a specific anime, or a specified number of episodes is affected.
 
-ListR will not intentionally request or store passwords, Discord authentication tokens, or other credentials through normal bot functionality.
+When using /animereset with reset-wat set to episodes, a negative episode value adds episodes rather than removing them. Users are responsible for checking the value they enter before submitting the command.
 
-You are responsible for reviewing the bot's Privacy Policy, if one is provided, for detailed information about what data is collected, why it is collected, how long it is retained, and how it can be deleted.
+3. Data and Privacy
+
+ListR's persistent variables store only the following categories of data:
+
+- User IDs, and only when a User ID is required to associate stored data with the correct user.
+- Anime names.
+- Episode numbers.
+- Chosen options used by ListR's functionality, including selected categories and reset options.
+
+ListR does not intentionally store Discord server IDs, usernames, message content, passwords, authentication tokens, payment information, or other personal information in its persistent ListR variables.
+
+This section describes ListR's persistent bot data specifically. Discord itself may provide a third-party Discord application with information through Discord's APIs and permissions. Discord's own handling of that information is governed by Discord's policies.
+
+ListR's data practices are described in the ListR Privacy Policy, which forms part of the documentation for the service:
+Privacy Policy: Privacy Policy/PRIVACY_POLICY.txt
 
 4. User Responsibilities
 
 You agree to:
-- Use ListR only for lawful purposes.
-- Follow Discord's Terms of Service and applicable policies.
-- Avoid attempting to exploit, disrupt, overload, or compromise ListR.
-- Avoid using ListR to facilitate harassment, spam, abuse, or other harmful activity.
-- Provide accurate information when using ListR's features.
 
-5. Anime and Third-Party Content
+- Use ListR lawfully.
+- Follow Discord's Terms of Service, Community Guidelines, Developer Terms, Developer Policy, and other applicable Discord policies.
+- Not intentionally exploit, overload, disrupt, damage, or attempt to compromise ListR.
+- Not use ListR for harassment, spam, abuse, or other harmful activity.
+- Check command options and values before submitting commands, especially /animereset.
 
-ListR may display titles, names, metadata, images, or other information originating from third-party services or sources.
+5. Third-Party Content
 
-ListR does not claim ownership of third-party intellectual property. All third-party trademarks, names, characters, and related materials remain the property of their respective owners.
+ListR may process or display anime names entered by users. ListR does not claim ownership of names, trademarks, or other intellectual property belonging to their respective owners.
 
-ListR is intended to help users organize information and does not provide unauthorized copies of copyrighted anime or other media.
+ListR is an organization and tracking tool. It does not provide unauthorized copies of copyrighted anime or other media.
 
-6. Availability
+6. Availability and Changes
 
-ListR is provided on an "as available" basis. Features may be changed, temporarily unavailable, discontinued, or removed without notice.
+ListR is provided on an "as available" basis. Commands, features, storage methods, and other parts of the service may change, be temporarily unavailable, or be discontinued.
 
-The ListR owner does not guarantee uninterrupted operation, permanent data retention, or compatibility with future Discord changes.
+The ListR owner does not guarantee uninterrupted availability or permanent retention of stored data.
 
-7. Moderation and Termination
+7. Suspension and Termination
 
-The ListR owner may restrict or terminate access to ListR for users, servers, or other entities that violate these Terms, abuse the service, or create security or operational risks.
+The ListR owner may restrict or terminate access to ListR where necessary to address abuse, security risks, violations of these Terms, or operational requirements.
 
-The ListR owner may also discontinue the service at any time.
+ListR may also be discontinued.
 
 8. Limitation of Liability
 
-To the extent permitted by applicable law, ListR and its owner are not responsible for losses, damages, data loss, service interruptions, or other consequences arising from the use of or inability to use ListR.
+To the maximum extent permitted by applicable law, ListR and its owner are not responsible for losses, damages, data loss, interruptions, or other consequences resulting from use of or inability to use ListR.
+
+Nothing in these Terms excludes or limits liability where applicable law does not permit such an exclusion or limitation.
 
 9. Changes to These Terms
 
-These Terms may be updated when ListR's features, data practices, legal requirements, or policies change.
+These Terms may be updated when ListR's functionality, data practices, policies, or legal requirements change.
 
-The latest version published with ListR will replace previous versions. Continued use of ListR after an update constitutes acceptance of the updated Terms, to the extent permitted by applicable law.
+The current version published with ListR replaces previous versions. Continued use of ListR after an update constitutes acceptance of the updated Terms to the extent permitted by applicable law.
 
 10. Discord Policies
 
-Your use of ListR remains subject to Discord's applicable Terms of Service, Community Guidelines, Developer Terms of Service, Developer Policy, and other applicable Discord policies.
+Your use of ListR is also subject to applicable Discord policies. If a mandatory Discord policy or applicable law conflicts with these Terms, the mandatory policy or law takes precedence.
 
-If these Terms conflict with a mandatory Discord policy or applicable law, the mandatory policy or law takes precedence.
+11. Privacy Policy and Contact
 
-11. Contact
+The ListR Privacy Policy explains the bot's persistent data practices, purposes of processing, retention, and data-request procedures.
 
-For questions, concerns, data requests, or other issues concerning ListR, contact the ListR owner through the official support/contact method provided with the bot or its project repository.
+Privacy Policy: Privacy Policy/PRIVACY_POLICY.txt
+
+For questions, privacy requests, or other concerns about ListR, contact the ListR owner through the official support or contact method provided with the bot or its project repository.
 
 12. Acceptance
 
-By using ListR, you acknowledge that you have read, understood, and agreed to these Terms of Service.
+By using ListR, you acknowledge that you have read and agree to these Terms.
 
-This document is a general service-terms template and is not legal advice. The ListR owner is responsible for adapting it to the bot's actual data practices, features, jurisdiction, and applicable laws.
+This document is a general service-terms template and is not legal advice. The ListR owner is responsible for ensuring that the final Terms and Privacy Policy accurately reflect the bot's actual implementation and applicable legal requirements.
